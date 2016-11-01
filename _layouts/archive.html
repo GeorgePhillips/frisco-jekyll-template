@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="hero" style="background-image: url(/images/stock-photos/ocean.jpeg)">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>The latest news</h1>
+			<p class="subtext">Hear the latest progress on Frisco and tips on making life long friends.</p>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="text-container">
+
+		<div class="center-text" style="padding: 60px 0 0 0;">
+			<span class="blog-filter cross"><a href="/blog/">{{ page.title | capitalize }}</a></span>
+		</div>
+
+		<ul class="blog-posts">
+			{% include list-posts.html posts=page.posts %}
+		</ul>
+	</div>
+</section>

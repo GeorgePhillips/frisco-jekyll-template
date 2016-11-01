@@ -1,0 +1,151 @@
+.container, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.text-container {
+	max-width: 750px;
+}
+
+.container {
+	max-width: 1140px;
+}
+
+.dark-logo {
+	display: none;
+}
+
+section {
+	background: #fff;
+}
+
+.pad {
+	padding: 60px 0;
+}
+
+header {
+	color: #fff;
+	padding: 10px 0 20px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+
+	&.header-background {
+		background: rgba(255,255,255,.9);
+		color: #333;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+		a {
+			color: #333;
+
+			&:hover {
+				border-bottom-color: rgba(80, 80, 80,.3);
+				border-bottom-width: 5px;
+			}
+		}
+
+		.dark-logo {
+			display: inline;
+		}
+
+		.light-logo {
+			display: none;
+		}
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+	  position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+		display: inline-block;
+
+		a {
+			position: relative;
+			top: 7px;
+		}
+
+		img {
+			height: 35px;
+		}
+	}
+}
+
+.content {
+	background: #fff;
+}
+
+.info {
+	padding: 100px 0;
+	color: #fff;
+
+	img {
+		max-height: 650px;
+	}
+}
+
+.subtext {
+	margin-top: 10px;
+}
+
+
+.cta {
+	margin: 25px 0 0 0;
+}
+
+.page h2 {
+	text-align: center;
+}
+
+blockquote {
+	padding: 18px 25px;
+	margin: 0;
+	quotes: "\201C""\201D""\2018""\2019";
+	font-style: italic;
+
+	cite {
+		display: block;
+		font-weight: bold;
+		margin: 10px 0 0 0;
+	}
+
+	p {
+		display: inline;
+	}
+}
+
+blockquote:before {
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.square-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background-size:cover;
+ 	background-repeat:no-repeat;
+	margin: 0 auto;
+}
+
+.page {
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.center-text {
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+collections:
+  staff:
+
+paginate: 10
+paginate_path: "/blog/:num/"
+permalink: pretty
+
+jekyll-archives:
+  enabled: ['categories']
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default"
