@@ -5,6 +5,7 @@ layout: post
 categories:
   - friends
 hero_image: /images/stock-photos/boat-woman.jpeg
+staff: anna
 ---
 
 Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.

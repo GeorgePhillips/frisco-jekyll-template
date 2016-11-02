@@ -5,6 +5,7 @@ layout: post
 categories:
   - friendship
 hero_image: /images/stock-photos/spa.jpeg
+staff: anna
 ---
 Three significant factors make the formation of a friendship possible:
 

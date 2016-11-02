@@ -6,6 +6,7 @@ categories:
   - friendship
   - psychology
 hero_image: /images/stock-photos/woman-flowers.jpeg
+staff: james
 ---
 Children with Attention deficit hyperactivity disorder (ADHD) may not have difficulty forming friendships, though they may have a hard time keeping them, due to impulsive behavior and hyperactivity. Children with Attention deficit disorder (ADD) may not have as much trouble keeping and maintaining friendships, though inattentiveness may complicate the processes.
 

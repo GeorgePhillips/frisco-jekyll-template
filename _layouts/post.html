@@ -16,6 +16,15 @@ layout: default
 		<div class="post-content">
 			{{ content }}
 
+			<div class="author">
+				{% for person in site.staff %}
+					{% assign short_name = person.relative_path | split: "/" | last | split: ".md" | last %}
+					{% if short_name == page.staff %}
+						<div class="square-image" style="background-image: url('{{ person.image_path }}')"></div>
+						<p class="blurb">{{ person.blurb }}</p>
+					{% endif %}
+				{% endfor %}
+			</div>
 			{% if site.disqus_shortname and page.comments %}
 				<div id="disqus_thread"></div>
 				<script>

@@ -6,6 +6,7 @@ categories:
   - friendship
   - science
 hero_image: /images/stock-photos/woman-beach.jpeg
+staff: betty
 ---
 
 In the typical sequence of an individual's emotional development, friendships come after parental bonding and before pair bonding. In the intervening period between the end of early childhood and the onset of full adulthood, friendships are often the most important relationships in the emotional life of the adolescent, and are often more intense than relationships later in life. The absence of friends can be emotionally damaging.
