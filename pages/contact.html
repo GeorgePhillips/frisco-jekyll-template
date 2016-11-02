@@ -16,11 +16,8 @@ map:
 	</div>
 </section>
 
-<div class="map" id="gmap_canvas"></div>
-
-
 <section class="pad">
-	<div class="contact-box container">
+	<div class="text-container contact-box">
 		<form action="/contact_success" method="post" class="contact-form">
 			<input type="hidden" name="cc_emails[]" value="support@cloudcannon.com" />
 
@@ -36,7 +33,6 @@ map:
 			<input type="submit" value="Send Message" />
 		</form>
 
-
 		<div class="contact-details">
 			<h3>Address</h3>
 			<address>1 George Street,<br />Dunedin,<br />9001,<br />Otago,<br />New Zealand</address>
@@ -46,6 +42,8 @@ map:
 		</div>
 	</div>
 </section>
+
+<div class="map" id="gmap_canvas"></div>
 
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 <script type='text/javascript'>

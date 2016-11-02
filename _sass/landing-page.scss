@@ -2,6 +2,7 @@
 	color: #ffffff;
 	text-align: center;
 	height: 100vh;
+	background-color: #333;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -37,6 +38,10 @@
 
 .bottom-cta {
 	text-align: center;
+
+	h2 {
+		margin-bottom: 12px;
+	}
 }
 
 @media #{$desktop} {
