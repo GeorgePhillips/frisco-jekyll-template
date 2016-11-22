@@ -1,17 +1,16 @@
 ---
 title: Psychology of friendship
 subtext: How are our brains wired for friendship?
-layout: post
 categories:
   - friendship
   - science
 hero_image: /images/stock-photos/woman-beach.jpeg
-staff: betty
+author_staff_member: betty
 ---
 
 In the typical sequence of an individual's emotional development, friendships come after parental bonding and before pair bonding. In the intervening period between the end of early childhood and the onset of full adulthood, friendships are often the most important relationships in the emotional life of the adolescent, and are often more intense than relationships later in life. The absence of friends can be emotionally damaging.
 
-![Fair](/images/blog/psychology-of-friendship/fair.jpg)
+![Fair]({{ site.baseurl }}/images/blog/psychology-of-friendship/fair.jpg)
 
 ## Evolution
 
@@ -21,7 +20,7 @@ The evolutionary psychology approach to human development has led to the theory 
 
 In childhood, friendships are often based on the sharing of toys, and the enjoyment received from performing activities together. These friendships are maintained through affection, sharing, and creative playtime. While sharing is difficult for children at this age, they are more likely to share with someone they consider to be a friend. As children mature, they become less individualized and are more aware of others.
 
-![Gleise](/images/blog/psychology-of-friendship/gleise.jpg)
+![Gleise]({{ site.baseurl }}/images/blog/psychology-of-friendship/gleise.jpg)
 
 They begin to see their friends' points of view, and enjoy playing in groups. They also experience peer rejection as they move through the middle childhood years. Establishing good friendships at a young age helps a child to be better acclimated in society later on in their life. In a 1975 study, Bigelow and La Gaipa found that expectations for a "best friend" become increasingly complex as a child gets older. The study investigated such criteria in a sample of 480 children between the ages of six and fourteen.
 

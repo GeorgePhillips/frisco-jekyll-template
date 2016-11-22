@@ -15,7 +15,7 @@
 }
 
 .button.alt a {
-	background: rgba(255,255,255,0.15);
+	background: rgba(255,255,255,0);
 	border: 2px solid rgba(255, 255, 255, 1);
 	color: #fff;
 }
@@ -23,6 +23,7 @@
 .button.alt a:hover {
 	background: #fff;
 	color: $brand-color;
+	text-shadow: none;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }

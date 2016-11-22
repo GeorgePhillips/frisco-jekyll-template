@@ -1,16 +1,15 @@
 ---
 title: What is a friend?
 subtext: Exploring the mechanics of friendship
-layout: post
 categories:
   - friends
 hero_image: /images/stock-photos/boat-woman.jpeg
-staff: anna
+author_staff_member: anna
 ---
 
 Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
 
-![Checkmate](/images/blog/what-is-a-friend/checkmate.jpg)
+![Checkmate]({{ site.baseurl }}/images/blog/what-is-a-friend/checkmate.jpg)
 
 ## Forms of friendship
 
@@ -18,4 +17,4 @@ Although there are many forms of friendship, some of which may vary from place t
 
 While there is no practical limit on what types of people can form a friendship, friends tend to share common backgrounds, occupations, or interests and have similar demographics.
 
-![Raspberries](/images/blog/what-is-a-friend/raspberries.jpg)
+![Raspberries]({{ site.baseurl }}/images/blog/what-is-a-friend/raspberries.jpg)

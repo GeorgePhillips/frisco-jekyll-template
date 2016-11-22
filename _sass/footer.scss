@@ -23,7 +23,10 @@ footer {
 		margin: 0;
 
 		&.footer-right-links {
-			float: right;
+			float: left;
+			@media #{$tablet} {
+				float: right;
+			}
 		}
 
 		&.footer-left-links {
@@ -75,7 +78,24 @@ footer {
 				&.pinterest-icon:hover svg {
 					fill: #bd081c;
 				}
+
+				&.rss-icon:hover svg {
+					fill: #f26522;
+				}
 			}
 		}
+	}
+}
+
+.copyright {
+	text-align: center;
+	font-size: .8em;
+	margin: 0 0 5px 0;
+	clear: both;
+
+	@media #{$desktop} {
+		clear: none;
+		padding: 16px 0;
+		margin: 0;
 	}
 }

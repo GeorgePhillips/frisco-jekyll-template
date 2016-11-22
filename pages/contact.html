@@ -4,10 +4,10 @@ title: Contact
 map:
   latitude: -45.8787605
   longitude: 170.5027976
-  content_html: "<strong>Hydra HQ</strong><br>1 George Street,<br>Dunedin, New Zealand<br>"
+  address: "1 George Street, Dunedin, New Zealand"
   zoom: 13
 ---
-<section class="hero" style="background-image: url(/images/stock-photos/child-swing.jpeg)">
+<section class="hero" style="background-image: url({{ site.baseurl }}/images/stock-photos/child-swing.jpeg)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>Get in touch today</h1>
@@ -18,7 +18,7 @@ map:
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="/contact_success" method="post" class="contact-form">
+		<form action="{{ site.baseurl }}/contact_success/" method="post" class="contact-form">
 			<input type="hidden" name="cc_emails[]" value="support@cloudcannon.com" />
 
 			<label for="name">Full Name</label>
@@ -35,7 +35,7 @@ map:
 
 		<div class="contact-details">
 			<h3>Address</h3>
-			<address>1 George Street,<br />Dunedin,<br />9001,<br />Otago,<br />New Zealand</address>
+			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 			<h3>Email</h3>
 			<p><a href="mailto:support@cloudcannon.com">support@cloudcannon.com</a></p>
@@ -47,6 +47,6 @@ map:
 
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
 <script type='text/javascript'>
-  window.mapData = {{ page.map | jsonify }};
+	window.mapData = {{ page.map | jsonify }};
 </script>
-<script src="/js/map.js"></script>
+<script src="{{ site.baseurl }}/js/map.js"></script>

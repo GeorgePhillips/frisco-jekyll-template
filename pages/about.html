@@ -4,7 +4,7 @@ title: About
 heading: Our team
 subtitle: We've built an amazing team of developers, marketers, designers and sales people.
 ---
-<section class="hero" style="background-image: url(/images/stock-photos/road.jpeg)">
+<section class="hero" style="background-image: url({{ site.baseurl }}/images/stock-photos/road.jpeg)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>Our Story</h1>
@@ -16,9 +16,9 @@ subtitle: We've built an amazing team of developers, marketers, designers and sa
 <section class="pad">
 	<div class="container">
 		<ul class="staff">
-			{% for person in site.staff %}
+			{% for person in site.staff_members %}
 				<li>
-					<div class="square-image" style="background-image: url('{{ person.image_path }}')"></div>
+					<div class="square-image" style="background-image: url('{{ site.baseurl }}{{ person.image_path }}')"></div>
 					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_handle }}">{{ person.name }}</a></div>
 					<div class="position">{{ person.position }}</div>
 				</li>
