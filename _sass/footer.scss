@@ -93,6 +93,10 @@ footer {
 	margin: 0 0 5px 0;
 	clear: both;
 
+	a {
+		color: #999;
+	}
+
 	@media #{$desktop} {
 		clear: none;
 		padding: 16px 0;

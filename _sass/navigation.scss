@@ -20,10 +20,10 @@ nav {
 	font-size: .8em;
 	width: 100%;
 	position: relative;
-	top: -13px;
+	top: -7px;
+	text-shadow: none;
 
 	@media #{$mid-point} {
-		padding: 0 20px;
 		padding: 0 20px;
 		display: inline;
 	}
@@ -31,15 +31,13 @@ nav {
 
 	a {
 		margin: 0 3px;
-		padding: 20px 10px;
+		padding: 14px 10px;
 		border-bottom: 1px solid rgba(255,255,255,0);
 		color: rgba(255,255,255,.8);
 		display: none;
-		text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 
 		@media #{$mid-point} {
 			display: inline;
-			padding: 20px 10px;
 		}
 
 
