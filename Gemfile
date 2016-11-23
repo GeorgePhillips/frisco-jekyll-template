@@ -7,5 +7,5 @@ group :jekyll_plugins do
 	gem 'jekyll-seo-tag', '2.1.0'
 	gem 'jekyll-paginate', '1.1.0'
 	gem 'jekyll-archives', '2.1.1'
-	gem 'jekyll-sitemap'
+	gem 'jekyll-sitemap', '0.12.0'
 end
