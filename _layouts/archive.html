@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section class="hero" style="background-image: url(/images/stock-photos/ocean.jpeg)">
+<section class="hero" style="background-image: url({{ site.baseurl }}/images/stock-photos/ocean.jpeg)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>The latest news</h1>
@@ -13,9 +13,7 @@ layout: default
 <section>
 	<div class="text-container">
 
-		<div class="center-text" style="padding: 60px 0 0 0;">
-			<span class="blog-filter cross"><a href="/blog/">{{ page.title | capitalize }}</a></span>
-		</div>
+		<p class="change-category">You're currently looking at advice categorised under <strong>{{ page.title }}</strong>. <a href="{{ site.baseurl }}/blog/">View all posts</a> instead.</p>
 
 		<ul class="blog-posts">
 			{% include list-posts.html posts=page.posts %}

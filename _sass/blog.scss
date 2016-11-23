@@ -9,7 +9,7 @@
 	}
 
 	.blog-post {
-		padding: 10px 0;
+		padding: 18px 0;
 
 		&:first-child {
 			padding-top: 50px;
@@ -23,6 +23,21 @@
 }
 
 .blog-post {
+
+	.author {
+		padding: 30px 0 0 0;
+    border: 1px solid #eee;
+    margin: 30px 0;
+		font-size: .8em;
+
+		.square-image {
+			width: 125px;
+			height: 125px;
+		}
+		.blurb {
+			text-align: center;
+		}
+	}
 	h3 {
 		margin: 0;
 		a {
@@ -35,6 +50,8 @@
 
 	h2 {
 		text-align: left;
+		font-size: 2.6em;
+		margin: 0;
 	}
 
 	.post-details {
@@ -108,4 +125,30 @@
 		bottom: 4px;
 		right: -3px;
 	}
+}
+
+.change-category {
+	margin: 0;
+	padding: 30px 0;
+}
+
+.blog-navigation {
+	font-size: 14px;
+	display: block;
+	width: auto;
+	overflow: hidden;
+	a {
+		display: block;
+		width: 50%;
+		float: left;
+		margin: 1em 0;
+	}
+
+	.next {
+		text-align: right;
+	}
+}
+
+.pagination {
+	padding: 30px
 }

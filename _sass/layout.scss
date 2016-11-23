@@ -26,15 +26,23 @@ section {
 
 header {
 	color: #fff;
-	padding: 10px 0 20px 0;
+	padding: 15px 0;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+	line-height: 0;
+
+	.container {
+		line-height: 0;
+	}
 
 	&.header-background {
-		background: rgba(255,255,255,.9);
+		background: rgba(255,255,255,.95);
 		color: #333;
 		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+		transition: all 0.5s ease;
+		text-shadow: none;
 
 		a {
 			color: #333;
@@ -59,6 +67,13 @@ header {
 		text-decoration: none;
 		z-index: 1;
 	  position: relative;
+		height: 100%;
+		display: block;
+
+		span {
+			display: block;
+			height: 100%;
+		}
 
 		&:hover {
 			text-decoration: none;
@@ -69,13 +84,8 @@ header {
 		font-size: 1.7em;
 		display: inline-block;
 
-		a {
-			position: relative;
-			top: 7px;
-		}
-
 		img {
-			height: 35px;
+			height: 25px;
 		}
 	}
 }
@@ -84,12 +94,15 @@ header {
 	background: #fff;
 }
 
-.info {
-	padding: 100px 0;
-	color: #fff;
-
-	img {
+.info img {
 		max-height: 650px;
+}
+
+.info {
+	padding: 0 0 100px 0;
+
+	&:first-child {
+		padding-top: 100px;
 	}
 }
 
@@ -148,4 +161,26 @@ blockquote:before {
 
 .center-text {
 	text-align: center;
+}
+
+.learn-more {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	text-align: center;
+	font-size: 1.4em;
+	width: 100%;
+
+	a {
+		text-decoration: none;
+		color: #fff;
+		opacity: .9;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.arrow {
+		font-size: .8em;
+	}
 }
